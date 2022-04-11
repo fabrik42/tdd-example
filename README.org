@@ -1,0 +1,14 @@
+#+TITLE: TDD Example
+
+* Run
+Install dependencies
+=bundle install=
+
+Watch files and run tests automatically
+=bundle exec guard= (in base directory of repo)
+* Best experience
+Have multiple files/windows open at the same time:
+
+- =./spec/validate_username_spec.rb= for the test code
+- =./lib/validate_username.rb= for the implementation code
+- Terminal running the =guard= test runner
