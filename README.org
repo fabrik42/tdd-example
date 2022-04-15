@@ -1,14 +1,26 @@
 #+TITLE: TDD Example
 
-* Run
+* 🍿 Synopsis
+This repository contains a minmal example of a test driven development approach.
+
+The code is about the function called =validate_username(username)= that takes a string representing a username and will return a boolean value that indicates if the username is valid or not.
+* 🛠 Setup
 Install dependencies
 =bundle install=
 
 Watch files and run tests automatically
 =bundle exec guard= (in base directory of repo)
-* Best experience
+* 🧘‍♀️ Best coding experience
 Have multiple files/windows open at the same time:
 
 - =./spec/validate_username_spec.rb= for the test code
 - =./lib/validate_username.rb= for the implementation code
 - Terminal running the =guard= test runner
+* ♻️ Workflow
+How to implement a new trait or feature:
+
+1. Add a new description/expectation to the test file
+2. See the test fail
+3. Implement a solution in the code file
+4. See test go green again
+5. Repeat
